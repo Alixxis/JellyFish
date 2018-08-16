@@ -98851,7 +98851,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 19866840, guid: e5c29fcd3e0b38f4bb53d3ad6ed913d2, type: 2}
       propertyPath: InitialModule.maxNumParticles
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 19866840, guid: e5c29fcd3e0b38f4bb53d3ad6ed913d2, type: 2}
       propertyPath: LightsModule.maxLights
@@ -98911,7 +98911,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 19866840, guid: e5c29fcd3e0b38f4bb53d3ad6ed913d2, type: 2}
       propertyPath: InitialModule.startSize.scalar
-      value: 2.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 19866840, guid: e5c29fcd3e0b38f4bb53d3ad6ed913d2, type: 2}
       propertyPath: moveWithTransform
