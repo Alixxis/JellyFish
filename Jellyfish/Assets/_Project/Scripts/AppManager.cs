@@ -16,7 +16,7 @@ public class AppManager : MonoBehaviour
     public int noteJellyFish3 = 6;
     public int noteJellyFish4 = 8;
     public int noteJellyFish5 = 10;
-    public int maxJellyFish = 16;
+    public int maxJellyFish = 32;
 
     public Color m_FinalJellyFishColor = Color.green;
 
