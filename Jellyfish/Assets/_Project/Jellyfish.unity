@@ -90774,31 +90774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Note1
-    clip: {fileID: 8300000, guid: e5755d7593db6194fbd801e22e7f5104, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-  - name: Note2
-    clip: {fileID: 8300000, guid: 0e973be572047f24998878490c95ff6b, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-  - name: Note3
-    clip: {fileID: 8300000, guid: dd627fba7a0be4142b8427efb6a0cbe3, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-  - name: Note4
-    clip: {fileID: 8300000, guid: 5c513eb3d50a7894d8bc22bb95e15de6, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-  - name: Note5
-    clip: {fileID: 8300000, guid: a20057dba0cc6f340838ca9b4d417740, type: 3}
+    clip: {fileID: 8300000, guid: 3eebd806529a37a4a94bca61fe54d91a, type: 3}
     volume: 1
     pitch: 1
     loop: 1
@@ -99099,6 +99075,7 @@ GameObject:
   - component: {fileID: 2050744311}
   - component: {fileID: 2050744313}
   - component: {fileID: 2050744316}
+  - component: {fileID: 2050744310}
   m_Layer: 0
   m_Name: Jellyfish
   m_TagString: Jellyfish
@@ -99106,6 +99083,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2050744310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050744309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7adced3c0368e47894c80ff02f604f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  frequency: 20
+  magnitude: 0.5
 --- !u!65 &2050744311
 BoxCollider:
   m_ObjectHideFlags: 0
